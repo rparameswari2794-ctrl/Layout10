@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Short+Stack&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/cssa.css">
+    <link rel="stylesheet" href="css/css.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-light navbar-light">
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand">Fashion world</a>
+            <button type="button" class="navbar-toggler" data-bs-target="#navbarNav" data-bs-toggle="collapse">
+                <span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a href="home.html" class="nav-link">Home</a> </li>
+                    <li class="nav-item"><a href="category.html" class="nav-link active">Categories</a> </li>
+                    <li class="nav-item"><a href="about.html" class="nav-link">About Us</a> </li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a> </li>
+                    <li class="nav-item"><i class="fa-solid fa-shopping-cart" id="cart" onclick="openCart()"></i> </li>
+                    <li class="nav-item"><i class="fa-solid fa-circle-user" id="profile" onclick="openProfile()"></i>
+                    </li>
+                    <li class="nav-item"><button class="reg-btn" type="button" onclick="openLog()">Login</button> </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-sm-12 col-md-12">
+                <div class="log-modal" id="logModal">
+                    <div class="log-box">
+                        <div class="log-head">
+                            <button type="button" class="close-btn" onclick="closeLog()">&times;</button>
+                        </div>
+                        <h2>Login</h2>
+                        <p>How to I started Lorem Ipsum dolor At?</p>
+                        <input type="text" id="name" placeholder="Username">
+                        <input type="password" id="password" placeholder="Password">
+                        <div class="con-log">
+                            <button type="button" class="log-btn" onclick="openHome()">Login</button>
+                        </div>
+                        <p class="con-pa">or continue with </p>
+                        <div class="g-btn"><i class="fa-brands fa-google"></i>
+                            <p>continue with google</p>
+                        </div>
+                        <div class="a-btn"><i class="fa-brands fa-apple"></i>
+                            <p>continue with Apple</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12">
+                <div class="pro-modal" id="proModal">
+                    <div class="pro-box">
+                        <div class="pro-head">
+                            <button type="button" class="close-btn" onclick="closePro()">&times;</button>
+                        </div>
+                        <h2>Welcome to</h2>
+                        <p class="bold-pa">Luxury Fashion World</p>
+                        <p class="light-pa">Please Enter Your Mobile Number</p>
+                        <input type="tel" id="phone" placeholder="+91 |    Mobile Number">
+                        <div class="pro-foot">
+                            <p>Use E-Mail</p>
+                        </div>
+                        <p class="long-pa">This site is protected by reCAPTCHA and the Google <u>Privacy Policy</u> and
+                            <u>Terms of Service</u> apply. On Clicking Continue, I agree to <u>Terms of Service &
+                                Privacy Policy</u>
+                        </p>
+                        <button type="button" class="con-btn">Continue</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="containter-fluid mt-5">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12">
+                <nav>
+                    <ul class="cate-ul">
+                        <li><a href="category.html">All/</a></li>
+                        <li><a href="modern.html">Modern/</a></li>
+                        <li><a href="tradition.html" class="active">Traditional/</a></li>
+                        <li><a href="casual.html">Casual/</a></li>
+                        <li><a href="formal.html">Formals</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid m-5">
+        <div class="row">
+            <div class="col-lg-3 col-md-4 col-sm-12">
+                <div class="cate-filter">
+                  <h4 class="cateh4">Categories</h4>
+                  <button type="button" class="all-btn1" onclick="openTradition()">All</button>
+                  <button type="button" class="all-btn" onclick="openMen1()">Men</button>
+                  <button type="button" class="all-btn2" onclick="openWomen1()">Women</button>
+                  <button type="button" class="all-btn3" onclick="openKid1()">Kids</button>
+
+                  <h4 class="sizeh4">Size</h4>
+                  <button type="button" class="size-btn" onclick="changeColor(this)">S</button>
+                  <button type="button" class="size-btn" onclick="changeColor(this)">L</button>
+                  <button type="button" class="size-btn" onclick="changeColor(this)">M</button>
+                  <button type="button" class="size-btn" onclick="changeColor(this)">XL</button>
+                  <button type="button" class="size-btn" onclick="changeColor(this)">XXL</button>
+                  <button type="button" class="size-btn" onclick="changeColor(this)">XXXL</button>
+                </div>
+            </div>
+            <div class="col-lg-9 col-md-8 col-sm-12">
+                <div class="modern-list">
+                    <div class="cate-card">
+                        <div class="cate-card13a">
+                            <i class="fa-solid fa-heart" id="heart"></i>
+                            <button type="button" class="cate-btn" onclick="openCart()">Buy Now</button>
+                        </div>
+                        <div class="cate-card1a">
+                            <div class="rate-pa">
+                                <p>T-Shirt & Jean</p>
+                                <p>$800</p>
+                            </div>
+                            <p class="cate-small">Casual Wear</p>
+                        </div>
+                    </div>
+                
+                    <div class="cate-card">
+                        <div class="cate-card14a">
+                            <i class="fa-solid fa-heart" id="heart"></i>
+                            <button type="button" class="cate-btn" onclick="openCart()">Buy Now</button>
+                        </div>
+                        <div class="cate-card1a">
+                            <div class="rate-pa">
+                                 <p>T-Shirt & Jean</p>
+                                <p>$800</p>
+                            </div>
+                            <p class="cate-small">Casual Wear</p>
+                        </div>
+                    </div>
+               
+                    <div class="cate-card">
+                        <div class="cate-card15a">
+                            <i class="fa-solid fa-heart" id="heart"></i>
+                            <button type="button" class="cate-btn" onclick="openCart()">Buy Now</button>
+                        </div>
+                        <div class="cate-card1a">
+                            <div class="rate-pa">
+                                <p>T-Shirt & Jean</p>
+                                <p>$800</p>
+                            </div>
+                            <p class="cate-small">Casual Wear</p>
+                        </div>
+                    </div>
+                
+                    <div class="cate-card">
+                        <div class="cate-card16a">
+                            <i class="fa-solid fa-heart" id="heart"></i>
+                            <button type="button" class="cate-btn" onclick="openCart()">Buy Now</button>
+                        </div>
+                        <div class="cate-card1a">
+                            <div class="rate-pa">
+                                 <p>T-Shirt & Jean</p>
+                                <p>$800</p>
+                            </div>
+                            <p class="cate-small">Casual Wear</p>
+                        </div>
+                    </div>
+               
+                    <div class="cate-card">
+                        <div class="cate-card17a">
+                            <i class="fa-solid fa-heart" id="heart"></i>
+                            <button type="button" class="cate-btn" onclick="openCart()">Buy Now</button>
+                        </div>
+                        <div class="cate-card1a">
+                            <div class="rate-pa">
+                                 <p>T-Shirt & Jean</p>
+                                <p>$800</p>
+                            </div>
+                            <p class="cate-small">Casual Wear</p>
+                        </div>
+                    </div>
+               
+                    <div class="cate-card">
+                        <div class="cate-card18a">
+                            <i class="fa-solid fa-heart" id="heart"></i>
+                            <button type="button" class="cate-btn" onclick="openCart()">Buy Now</button>
+                        </div>
+                        <div class="cate-card1a">
+                            <div class="rate-pa">
+                                <p>T-Shirt & Jean</p>
+                                <p>$800</p>
+                            </div>
+                            <p class="cate-small">Casual Wear</p>
+                        </div>
+                    </div>
+               
+                    <div class="cate-card">
+                        <div class="cate-card19a">
+                            <i class="fa-solid fa-heart" id="heart"></i>
+                            <button type="button" class="cate-btn" onclick="openCart()">Buy Now</button>
+                        </div>
+                        <div class="cate-card1a">
+                            <div class="rate-pa">
+                                <p>T-Shirt & Jean</p>
+                                <p>$800</p>
+                            </div>
+                            <p class="cate-small">Casual Wear</p>
+                        </div>
+                    </div>
+                
+                    <div class="cate-card">
+                        <div class="cate-card20a">
+                            <i class="fa-solid fa-heart" id="heart"></i>
+                            <button type="button" class="cate-btn" onclick="openCart()">Buy Now</button>
+                        </div>
+                        <div class="cate-card1a">
+                            <div class="rate-pa">
+                                <p>T-Shirt & Jean</p>
+                                <p>$800</p>
+                            </div>
+                            <p class="cate-small">Casual Wear</p>
+                        </div>
+                    </div>
+                
+                    <div class="cate-card">
+                        <div class="cate-card21a">
+                            <i class="fa-solid fa-heart" id="heart"></i>
+                            <button type="button" class="cate-btn" onclick="openCart()">Buy Now</button>
+                        </div>
+                        <div class="cate-card1a">
+                            <div class="rate-pa">
+                                <p>T-Shirt & Jean</p>
+                                <p>$800</p>
+                            </div>
+                            <p class="cate-small">Casual Wear</p>
+                        </div>
+                    </div>
+                
+                    <div class="cate-card">
+                        <div class="cate-card22a">
+                            <i class="fa-solid fa-heart" id="heart"></i>
+                            <button type="button" class="cate-btn" onclick="openCart()">Buy Now</button>
+                        </div>
+                        <div class="cate-card1a">
+                            <div class="rate-pa">
+                                <p>T-Shirt & Jean</p>
+                                <p>$800</p>
+                            </div>
+                            <p class="cate-small">Casual Wear</p>
+                        </div>
+                    </div>
+                
+                    <div class="cate-card">
+                        <div class="cate-card23a">
+                            <i class="fa-solid fa-heart" id="heart"></i>
+                            <button type="button" class="cate-btn" onclick="openCart()">Buy Now</button>
+                        </div>
+                        <div class="cate-card1a">
+                            <div class="rate-pa">
+                                <p>T-Shirt & Jean</p>
+                                <p>$800</p>
+                            </div>
+                            <p class="cate-small">Casual Wear</p>
+                        </div>
+                    </div>
+               
+                    <div class="cate-card">
+                        <div class="cate-card24a">
+                            <i class="fa-solid fa-heart" id="heart"></i>
+                            <button type="button" class="cate-btn" onclick="openCart()">Buy Now</button>
+                        </div>
+                        <div class="cate-card1a">
+                            <div class="rate-pa">
+                                <p>T-Shirt & Jean</p>
+                                <p>$800</p>
+                            </div>
+                            <p class="cate-small">Casual Wear</p>
+                        </div>
+                    </div>
+                </div>
+                <button type="button" class="back-btn" onclick="openCate()">Back</button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <footer>
+        <div class="container-fluid p-0">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="foot-card">
+                        <h6>LUXE</h6>
+                        <p>Premium fashion for the modern connoisseur. Elevate your style with our curated
+                            collections. </p>
+                        <p class="i-pa"><i class="fa-brands fa-facebook"></i><i class="fa-brands fa-instagram"></i><i
+                                class="fa-brands fa-twitter"></i><i class="fa-brands fa-whatsapp"></i> </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="foot-card1">
+                        <h6>Shop</h6>
+                        <p>Women</p>
+                        <p>Men</p>
+                        <p>Accessories</p>
+                        <p>New Arrivals</p>
+                        <p>Sale</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="foot-card1">
+                        <h6>Help</h6>
+                        <p>Customer Service</p>
+                        <p>My Account</p>
+                        <p>Find a Store</p>
+                        <p>Shipping & Returns</p>
+                        <p>FAQ</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="foot-card1">
+                        <h6>About</h6>
+                        <p>Our Story</p>
+                        <p>Careers</p>
+                        <p>Corporate Responsibility</p>
+                        <p>Press</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js" defer></script>
+</body>
+
+</html>
