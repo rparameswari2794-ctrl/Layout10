@@ -1,0 +1,643 @@
+.cate-ul{display: flex;list-style-type: none;gap:20px}
+.cate-ul li a.active{color:red !important}
+.cate-ul li a{text-decoration: none;color: black;font-size: 22px;}
+#heart{color: red;display: flex;justify-content: end;margin-right: 10px;margin-top: 10px;opacity: 0;cursor: pointer;}
+.cate-card1{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2698.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-btn{height: 35px;width:100px;border: none;border-radius: 10px;background-color: red;color: white;margin-top: 160px;margin-left: 20%;opacity: 0;}
+.cate-card1a{height: 50px;width:200px;padding:10px;line-height:0.5;border: none;}
+.rate-pa{display: flex;justify-content: space-between;font-weight: bold;margin-bottom: 0 !important;}
+.cate-small{color:rgb(156, 154, 154);font-size: 14px;}
+.cate-card1:hover #heart{opacity: 1;}
+.cate-card1:hover .cate-btn{opacity: 1;}
+.cate-card1:hover{opacity:0.7;}
+#section2{margin-left: 200px;margin-right: 180px;}
+.cate-card2{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2799.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card3{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2664.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card4{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2663.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card5{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2663.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card6{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2799.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card7{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2851.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card8{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2698.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card9{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2808.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card10{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2698.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card11{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2698.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card12{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2808.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card2:hover #heart{opacity: 1;}
+.cate-card2:hover .cate-btn{opacity: 1;}
+.cate-card2:hover{opacity:0.7;}
+.cate-card3:hover #heart{opacity: 1;}
+.cate-card3:hover .cate-btn{opacity: 1;}
+.cate-card3:hover{opacity:0.7;}
+.cate-card4:hover #heart{opacity: 1;}
+.cate-card4:hover .cate-btn{opacity: 1;}
+.cate-card4:hover{opacity:0.7;}
+.cate-card5:hover #heart{opacity: 1;}
+.cate-card5:hover .cate-btn{opacity: 1;}
+.cate-card5:hover{opacity:0.7;}
+.cate-card6:hover #heart{opacity: 1;}
+.cate-card6:hover .cate-btn{opacity: 1;}
+.cate-card6:hover{opacity:0.7;}
+.cate-card7:hover #heart{opacity: 1;}
+.cate-card7:hover .cate-btn{opacity: 1;}
+.cate-card7:hover{opacity:0.7;}
+.cate-card8:hover #heart{opacity: 1;}
+.cate-card8:hover .cate-btn{opacity: 1;}
+.cate-card8:hover{opacity:0.7;}
+.cate-card9:hover #heart{opacity: 1;}
+.cate-card9:hover .cate-btn{opacity: 1;}
+.cate-card9:hover{opacity:0.7;}
+.cate-card10:hover #heart{opacity: 1;}
+.cate-card10:hover .cate-btn{opacity: 1;}
+.cate-card10:hover{opacity:0.7;}
+.cate-card11:hover #heart{opacity: 1;}
+.cate-card11:hover .cate-btn{opacity: 1;}
+.cate-card11:hover{opacity:0.7;}
+.cate-card12:hover #heart{opacity: 1;}
+.cate-card12:hover .cate-btn{opacity: 1;}
+.cate-card12:hover{opacity:0.7;}
+.cate-filter{height:1450px;border: 1px solid black;}
+.modern-list{display: flex;flex-wrap: wrap;gap:50px;margin-left: 50px;}
+.all-btn{width:100%;border: none;background-color: rgb(183, 180, 180);font-size: 22px;margin-top: 10px;}
+.all-btn1{width:100%;border: none;background-color: white;font-size: 22px;margin-top: 10px;}
+.all-btn2{width:100%;border: none;background-color: white;font-size: 22px;margin-top: 10px;}
+.all-btn3{width:100%;border: none;background-color: white;font-size: 22px;margin-top: 10px;}
+.cateh4{text-align: center;margin-top: 10px;margin-bottom: 10px;}
+.sizeh4{text-align: center;margin-top: 100px;}
+.size-btn{width:40%;margin: 10px;border: 1px solid black;background-color: white;height: 40px;border-radius: 10px;}
+.back-btn{margin-left: 50%;margin-top: 50px;height: 40px;width: 120px;background-color: red;color: white;border: none;border-radius: 10px;font-size: 20px;}
+.cate-card13{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2800.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card14{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2800.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card15{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2696.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card16{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2699.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card17{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2699.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card18{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2821.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card19{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2665.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card20{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2704.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card21{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2704.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card22{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2808.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card23{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2704.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card24{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2704.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card13:hover #heart{opacity: 1;}
+.cate-card13:hover .cate-btn{opacity: 1;}
+.cate-card13:hover{opacity:0.7;}
+.cate-card14:hover #heart{opacity: 1;}
+.cate-card14:hover .cate-btn{opacity: 1;}
+.cate-card14:hover{opacity:0.7;}
+.cate-card15:hover #heart{opacity: 1;}
+.cate-card15:hover .cate-btn{opacity: 1;}
+.cate-card15:hover{opacity:0.7;}
+.cate-card16:hover #heart{opacity: 1;}
+.cate-card16:hover .cate-btn{opacity: 1;}
+.cate-card16:hover{opacity:0.7;}
+.cate-card17:hover #heart{opacity: 1;}
+.cate-card17:hover .cate-btn{opacity: 1;}
+.cate-card17:hover{opacity:0.7;}
+.cate-card18:hover #heart{opacity: 1;}
+.cate-card18:hover .cate-btn{opacity: 1;}
+.cate-card18:hover{opacity:0.7;}
+.cate-card19:hover #heart{opacity: 1;}
+.cate-card19:hover .cate-btn{opacity: 1;}
+.cate-card19:hover{opacity:0.7;}
+.cate-card20:hover #heart{opacity: 1;}
+.cate-card20:hover .cate-btn{opacity: 1;}
+.cate-card20:hover{opacity:0.7;}
+.cate-card21:hover #heart{opacity: 1;}
+.cate-card21:hover .cate-btn{opacity: 1;}
+.cate-card21:hover{opacity:0.7;}
+.cate-card22:hover #heart{opacity: 1;}
+.cate-card22:hover .cate-btn{opacity: 1;}
+.cate-card22:hover{opacity:0.7;}
+.cate-card23:hover #heart{opacity: 1;}
+.cate-card23:hover .cate-btn{opacity: 1;}
+.cate-card23:hover{opacity:0.7;}
+.cate-card24:hover #heart{opacity: 1;}
+.cate-card24:hover .cate-btn{opacity: 1;}
+.cate-card24:hover{opacity:0.7;}
+.cate-card25{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2697.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card26{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2697.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card27{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2810.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card28{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2809.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card29{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2809.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card30{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2811.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card31{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2807.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card32{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2807.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card33{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2705.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card34{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2807.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card35{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2807.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card36{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2705.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card25:hover #heart{opacity: 1;}
+.cate-card25:hover .cate-btn{opacity: 1;}
+.cate-card25:hover{opacity:0.7;}
+.cate-card26:hover #heart{opacity: 1;}
+.cate-card26:hover .cate-btn{opacity: 1;}
+.cate-card26:hover{opacity:0.7;}
+.cate-card27:hover #heart{opacity: 1;}
+.cate-card27:hover .cate-btn{opacity: 1;}
+.cate-card27:hover{opacity:0.7;}
+.cate-card28:hover #heart{opacity: 1;}
+.cate-card28:hover .cate-btn{opacity: 1;}
+.cate-card28:hover{opacity:0.7;}
+.cate-card29:hover #heart{opacity: 1;}
+.cate-card29:hover .cate-btn{opacity: 1;}
+.cate-card29:hover{opacity:0.7;}
+.cate-card30:hover #heart{opacity: 1;}
+.cate-card30:hover .cate-btn{opacity: 1;}
+.cate-card30:hover{opacity:0.7;}
+.cate-card31:hover #heart{opacity: 1;}
+.cate-card31:hover .cate-btn{opacity: 1;}
+.cate-card31:hover{opacity:0.7;}
+.cate-card32:hover #heart{opacity: 1;}
+.cate-card32:hover .cate-btn{opacity: 1;}
+.cate-card32:hover{opacity:0.7;}
+.cate-card33:hover #heart{opacity: 1;}
+.cate-card33:hover .cate-btn{opacity: 1;}
+.cate-card33:hover{opacity:0.7;}
+.cate-card34:hover #heart{opacity: 1;}
+.cate-card34:hover .cate-btn{opacity: 1;}
+.cate-card34:hover{opacity:0.7;}
+.cate-card35:hover #heart{opacity: 1;}
+.cate-card35:hover .cate-btn{opacity: 1;}
+.cate-card35:hover{opacity:0.7;}
+.cate-card36:hover #heart{opacity: 1;}
+.cate-card36:hover .cate-btn{opacity: 1;}
+.cate-card36:hover{opacity:0.7;}
+.cate-card37{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2812.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card38{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2812.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card39{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2813.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card40{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2703.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card41{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2703.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card42{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2816.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card43{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2816.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card44{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2814.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card45{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2815.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card46{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2816.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card47{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2814.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card48{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2815.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card37:hover #heart{opacity: 1;}
+.cate-card37:hover .cate-btn{opacity: 1;}
+.cate-card37:hover{opacity:0.7;}
+.cate-card38:hover #heart{opacity: 1;}
+.cate-card38:hover .cate-btn{opacity: 1;}
+.cate-card38:hover{opacity:0.7;}
+.cate-card39:hover #heart{opacity: 1;}
+.cate-card39:hover .cate-btn{opacity: 1;}
+.cate-card39:hover{opacity:0.7;}
+.cate-card40:hover #heart{opacity: 1;}
+.cate-card40:hover .cate-btn{opacity: 1;}
+.cate-card40:hover{opacity:0.7;}
+.cate-card41:hover #heart{opacity: 1;}
+.cate-card41:hover .cate-btn{opacity: 1;}
+.cate-card41:hover{opacity:0.7;}
+.cate-card42:hover #heart{opacity: 1;}
+.cate-card42:hover .cate-btn{opacity: 1;}
+.cate-card42:hover{opacity:0.7;}
+.cate-card43:hover #heart{opacity: 1;}
+.cate-card43:hover .cate-btn{opacity: 1;}
+.cate-card43:hover{opacity:0.7;}
+.cate-card44:hover #heart{opacity: 1;}
+.cate-card44:hover .cate-btn{opacity: 1;}
+.cate-card44:hover{opacity:0.7;}
+.cate-card45:hover #heart{opacity: 1;}
+.cate-card45:hover .cate-btn{opacity: 1;}
+.cate-card45:hover{opacity:0.7;}
+.cate-card46:hover #heart{opacity: 1;}
+.cate-card46:hover .cate-btn{opacity: 1;}
+.cate-card46:hover{opacity:0.7;}
+.cate-card47:hover #heart{opacity: 1;}
+.cate-card47:hover .cate-btn{opacity: 1;}
+.cate-card47:hover{opacity:0.7;}
+.cate-card48:hover #heart{opacity: 1;}
+.cate-card48:hover .cate-btn{opacity: 1;}
+.cate-card48:hover{opacity:0.7;}
+.cate-card13a{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2834.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card14a{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2835.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card15a{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2836.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card16a{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2833.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card17a{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2834.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card18a{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2835.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card19a{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2836.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card20a{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2833.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card21a{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2834.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card22a{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2835.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card23a{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2836.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card24a{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2833.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card13a:hover #heart{opacity: 1;}
+.cate-card13a:hover .cate-btn{opacity: 1;}
+.cate-card13a:hover{opacity:0.7;}
+.cate-card14a:hover #heart{opacity: 1;}
+.cate-card14a:hover .cate-btn{opacity: 1;}
+.cate-card14a:hover{opacity:0.7;}
+.cate-card15a:hover #heart{opacity: 1;}
+.cate-card15a:hover .cate-btn{opacity: 1;}
+.cate-card15a:hover{opacity:0.7;}
+.cate-card16a:hover #heart{opacity: 1;}
+.cate-card16a:hover .cate-btn{opacity: 1;}
+.cate-card16a:hover{opacity:0.7;}
+.cate-card17a:hover #heart{opacity: 1;}
+.cate-card17a:hover .cate-btn{opacity: 1;}
+.cate-card17a:hover{opacity:0.7;}
+.cate-card18a:hover #heart{opacity: 1;}
+.cate-card18a:hover .cate-btn{opacity: 1;}
+.cate-card18a:hover{opacity:0.7;}
+.cate-card19a:hover #heart{opacity: 1;}
+.cate-card19a:hover .cate-btn{opacity: 1;}
+.cate-card19a:hover{opacity:0.7;}
+.cate-card20a:hover #heart{opacity: 1;}
+.cate-card20a:hover .cate-btn{opacity: 1;}
+.cate-card20a:hover{opacity:0.7;}
+.cate-card21a:hover #heart{opacity: 1;}
+.cate-card21a:hover .cate-btn{opacity: 1;}
+.cate-card21a:hover{opacity:0.7;}
+.cate-card22a:hover #heart{opacity: 1;}
+.cate-card22a:hover .cate-btn{opacity: 1;}
+.cate-card22a:hover{opacity:0.7;}
+.cate-card23a:hover #heart{opacity: 1;}
+.cate-card23a:hover .cate-btn{opacity: 1;}
+.cate-card23a:hover{opacity:0.7;}
+.cate-card24a:hover #heart{opacity: 1;}
+.cate-card24a:hover .cate-btn{opacity: 1;}
+.cate-card24a:hover{opacity:0.7;}
+.cate-card25a{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2803.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card26a{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2838.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card27a{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2838.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card28a{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2839.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card29a{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2840.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card30a{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2799.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card31a{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2839.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card32a{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2837.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card33a{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2799.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card34a{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2803.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card35a{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2840.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card36a{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2837.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card25a:hover #heart{opacity: 1;}
+.cate-card25a:hover .cate-btn{opacity: 1;}
+.cate-card25a:hover{opacity:0.7;}
+.cate-card26a:hover #heart{opacity: 1;}
+.cate-card26a:hover .cate-btn{opacity: 1;}
+.cate-card26a:hover{opacity:0.7;}
+.cate-card27a:hover #heart{opacity: 1;}
+.cate-card27a:hover .cate-btn{opacity: 1;}
+.cate-card27a:hover{opacity:0.7;}
+.cate-card28a:hover #heart{opacity: 1;}
+.cate-card28a:hover .cate-btn{opacity: 1;}
+.cate-card28a:hover{opacity:0.7;}
+.cate-card29a:hover #heart{opacity: 1;}
+.cate-card29a:hover .cate-btn{opacity: 1;}
+.cate-card29a:hover{opacity:0.7;}
+.cate-card30a:hover #heart{opacity: 1;}
+.cate-card30a:hover .cate-btn{opacity: 1;}
+.cate-card30a:hover{opacity:0.7;}
+.cate-card31a:hover #heart{opacity: 1;}
+.cate-card31a:hover .cate-btn{opacity: 1;}
+.cate-card31a:hover{opacity:0.7;}
+.cate-card32a:hover #heart{opacity: 1;}
+.cate-card32a:hover .cate-btn{opacity: 1;}
+.cate-card32a:hover{opacity:0.7;}
+.cate-card33a:hover #heart{opacity: 1;}
+.cate-card33a:hover .cate-btn{opacity: 1;}
+.cate-card33a:hover{opacity:0.7;}
+.cate-card34a:hover #heart{opacity: 1;}
+.cate-card34a:hover .cate-btn{opacity: 1;}
+.cate-card34a:hover{opacity:0.7;}
+.cate-card35a:hover #heart{opacity: 1;}
+.cate-card35a:hover .cate-btn{opacity: 1;}
+.cate-card35a:hover{opacity:0.7;}
+.cate-card36a:hover #heart{opacity: 1;}
+.cate-card36a:hover .cate-btn{opacity: 1;}
+.cate-card36a:hover{opacity:0.7;}
+.cate-card37a{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2841.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card38a{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2842.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card39a{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2842.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card40a{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2843.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card41a{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2844.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card42a{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2843.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card43a{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2845.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card44a{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2845.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card45a{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2846.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card46a{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2846.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card47a{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2841.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card48a{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2844.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card37a:hover #heart{opacity: 1;}
+.cate-card37a:hover .cate-btn{opacity: 1;}
+.cate-card37a:hover{opacity:0.7;}
+.cate-card38a:hover #heart{opacity: 1;}
+.cate-card38a:hover .cate-btn{opacity: 1;}
+.cate-card38a:hover{opacity:0.7;}
+.cate-card39a:hover #heart{opacity: 1;}
+.cate-card39a:hover .cate-btn{opacity: 1;}
+.cate-card39a:hover{opacity:0.7;}
+.cate-card40a:hover #heart{opacity: 1;}
+.cate-card40a:hover .cate-btn{opacity: 1;}
+.cate-card40a:hover{opacity:0.7;}
+.cate-card41a:hover #heart{opacity: 1;}
+.cate-card41a:hover .cate-btn{opacity: 1;}
+.cate-card41a:hover{opacity:0.7;}
+.cate-card42a:hover #heart{opacity: 1;}
+.cate-card42a:hover .cate-btn{opacity: 1;}
+.cate-card42a:hover{opacity:0.7;}
+.cate-card43a:hover #heart{opacity: 1;}
+.cate-card43a:hover .cate-btn{opacity: 1;}
+.cate-card43a:hover{opacity:0.7;}
+.cate-card44a:hover #heart{opacity: 1;}
+.cate-card44a:hover .cate-btn{opacity: 1;}
+.cate-card44a:hover{opacity:0.7;}
+.cate-card45a:hover #heart{opacity: 1;}
+.cate-card45a:hover .cate-btn{opacity: 1;}
+.cate-card45a:hover{opacity:0.7;}
+.cate-card46a:hover #heart{opacity: 1;}
+.cate-card46a:hover .cate-btn{opacity: 1;}
+.cate-card46a:hover{opacity:0.7;}
+.cate-card47a:hover #heart{opacity: 1;}
+.cate-card47a:hover .cate-btn{opacity: 1;}
+.cate-card47a:hover{opacity:0.7;}
+.cate-card48a:hover #heart{opacity: 1;}
+.cate-card48a:hover .cate-btn{opacity: 1;}
+.cate-card48a:hover{opacity:0.7;}
+.cate-card13b{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2817.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card14b{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2817.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card15b{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2818.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card16b{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2808.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card17b{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2665.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card18b{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2819.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card19b{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2820.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card20b{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2820.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card21b{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2821.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card22b{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2821.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card23b{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2820.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card24b{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2819.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card13b:hover #heart{opacity: 1;}
+.cate-card13b:hover .cate-btn{opacity: 1;}
+.cate-card13b:hover{opacity:0.7;}
+.cate-card14b:hover #heart{opacity: 1;}
+.cate-card14b:hover .cate-btn{opacity: 1;}
+.cate-card14b:hover{opacity:0.7;}
+.cate-card15b:hover #heart{opacity: 1;}
+.cate-card15b:hover .cate-btn{opacity: 1;}
+.cate-card15b:hover{opacity:0.7;}
+.cate-card16b:hover #heart{opacity: 1;}
+.cate-card16b:hover .cate-btn{opacity: 1;}
+.cate-card16b:hover{opacity:0.7;}
+.cate-card17b:hover #heart{opacity: 1;}
+.cate-card17b:hover .cate-btn{opacity: 1;}
+.cate-card17b:hover{opacity:0.7;}
+.cate-card18b:hover #heart{opacity: 1;}
+.cate-card18b:hover .cate-btn{opacity: 1;}
+.cate-card18b:hover{opacity:0.7;}
+.cate-card19b:hover #heart{opacity: 1;}
+.cate-card19b:hover .cate-btn{opacity: 1;}
+.cate-card19b:hover{opacity:0.7;}
+.cate-card20b:hover #heart{opacity: 1;}
+.cate-card20b:hover .cate-btn{opacity: 1;}
+.cate-card20b:hover{opacity:0.7;}
+.cate-card21b:hover #heart{opacity: 1;}
+.cate-card21b:hover .cate-btn{opacity: 1;}
+.cate-card21b:hover{opacity:0.7;}
+.cate-card22b:hover #heart{opacity: 1;}
+.cate-card22b:hover .cate-btn{opacity: 1;}
+.cate-card22b:hover{opacity:0.7;}
+.cate-card23b:hover #heart{opacity: 1;}
+.cate-card23b:hover .cate-btn{opacity: 1;}
+.cate-card23b:hover{opacity:0.7;}
+.cate-card24b:hover #heart{opacity: 1;}
+.cate-card24b:hover .cate-btn{opacity: 1;}
+.cate-card24b:hover{opacity:0.7;}
+.cate-card25b{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2668.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card26b{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2668.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card27b{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2822.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card28b{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2824.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card29b{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2823.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card30b{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2823.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card31b{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2826.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card32b{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2825.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card33b{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2825.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card34b{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2826.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card35b{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2824.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card36b{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2823.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card25b:hover #heart{opacity: 1;}
+.cate-card25b:hover .cate-btn{opacity: 1;}
+.cate-card25b:hover{opacity:0.7;}
+.cate-card26b:hover #heart{opacity: 1;}
+.cate-card26b:hover .cate-btn{opacity: 1;}
+.cate-card26b:hover{opacity:0.7;}
+.cate-card27b:hover #heart{opacity: 1;}
+.cate-card27b:hover .cate-btn{opacity: 1;}
+.cate-card27b:hover{opacity:0.7;}
+.cate-card28b:hover #heart{opacity: 1;}
+.cate-card28b:hover .cate-btn{opacity: 1;}
+.cate-card28b:hover{opacity:0.7;}
+.cate-card29b:hover #heart{opacity: 1;}
+.cate-card29b:hover .cate-btn{opacity: 1;}
+.cate-card29b:hover{opacity:0.7;}
+.cate-card30b:hover #heart{opacity: 1;}
+.cate-card30b:hover .cate-btn{opacity: 1;}
+.cate-card30b:hover{opacity:0.7;}
+.cate-card31b:hover #heart{opacity: 1;}
+.cate-card31b:hover .cate-btn{opacity: 1;}
+.cate-card31b:hover{opacity:0.7;}
+.cate-card32b:hover #heart{opacity: 1;}
+.cate-card32b:hover .cate-btn{opacity: 1;}
+.cate-card32b:hover{opacity:0.7;}
+.cate-card33b:hover #heart{opacity: 1;}
+.cate-card33b:hover .cate-btn{opacity: 1;}
+.cate-card33b:hover{opacity:0.7;}
+.cate-card34b:hover #heart{opacity: 1;}
+.cate-card34b:hover .cate-btn{opacity: 1;}
+.cate-card34b:hover{opacity:0.7;}
+.cate-card35b:hover #heart{opacity: 1;}
+.cate-card35b:hover .cate-btn{opacity: 1;}
+.cate-card35b:hover{opacity:0.7;}
+.cate-card36b:hover #heart{opacity: 1;}
+.cate-card36b:hover .cate-btn{opacity: 1;}
+.cate-card36b:hover{opacity:0.7;}
+.cate-card37b{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2702.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card38b{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2830.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card39b{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2702.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card40b{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2828.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card41b{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2831.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card42b{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2829.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card43b{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2830.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card44b{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2829.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card45b{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2815.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card46b{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2816.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card47b{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2814.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card48b{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2702.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card37b:hover #heart{opacity: 1;}
+.cate-card37b:hover .cate-btn{opacity: 1;}
+.cate-card37b:hover{opacity:0.7;}
+.cate-card38b:hover #heart{opacity: 1;}
+.cate-card38b:hover .cate-btn{opacity: 1;}
+.cate-card38b:hover{opacity:0.7;}
+.cate-card39b:hover #heart{opacity: 1;}
+.cate-card39b:hover .cate-btn{opacity: 1;}
+.cate-card39b:hover{opacity:0.7;}
+.cate-card40b:hover #heart{opacity: 1;}
+.cate-card40b:hover .cate-btn{opacity: 1;}
+.cate-card40b:hover{opacity:0.7;}
+.cate-card41b:hover #heart{opacity: 1;}
+.cate-card41b:hover .cate-btn{opacity: 1;}
+.cate-card41b:hover{opacity:0.7;}
+.cate-card42b:hover #heart{opacity: 1;}
+.cate-card42b:hover .cate-btn{opacity: 1;}
+.cate-card42b:hover{opacity:0.7;}
+.cate-card43b:hover #heart{opacity: 1;}
+.cate-card43b:hover .cate-btn{opacity: 1;}
+.cate-card43b:hover{opacity:0.7;}
+.cate-card44b:hover #heart{opacity: 1;}
+.cate-card44b:hover .cate-btn{opacity: 1;}
+.cate-card44b:hover{opacity:0.7;}
+.cate-card45b:hover #heart{opacity: 1;}
+.cate-card45b:hover .cate-btn{opacity: 1;}
+.cate-card45b:hover{opacity:0.7;}
+.cate-card46b:hover #heart{opacity: 1;}
+.cate-card46b:hover .cate-btn{opacity: 1;}
+.cate-card46b:hover{opacity:0.7;}
+.cate-card47b:hover #heart{opacity: 1;}
+.cate-card47b:hover .cate-btn{opacity: 1;}
+.cate-card47b:hover{opacity:0.7;}
+.cate-card48b:hover #heart{opacity: 1;}
+.cate-card48b:hover .cate-btn{opacity: 1;}
+.cate-card48b:hover{opacity:0.7;}
+.cate-card13c{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2850.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card14c{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2849.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card15c{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2847.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card16c{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2848.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card17c{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2699.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card18c{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2849.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card19c{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2847.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card20c{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2850.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card21c{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2848.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card22c{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2849.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card23c{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2850.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card24c{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2847.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card13c:hover #heart{opacity: 1;}
+.cate-card13c:hover .cate-btn{opacity: 1;}
+.cate-card13c:hover{opacity:0.7;}
+.cate-card14c:hover #heart{opacity: 1;}
+.cate-card14c:hover .cate-btn{opacity: 1;}
+.cate-card14c:hover{opacity:0.7;}
+.cate-card15c:hover #heart{opacity: 1;}
+.cate-card15c:hover .cate-btn{opacity: 1;}
+.cate-card15c:hover{opacity:0.7;}
+.cate-card16c:hover #heart{opacity: 1;}
+.cate-card16c:hover .cate-btn{opacity: 1;}
+.cate-card16c:hover{opacity:0.7;}
+.cate-card17c:hover #heart{opacity: 1;}
+.cate-card17c:hover .cate-btn{opacity: 1;}
+.cate-card17c:hover{opacity:0.7;}
+.cate-card18c:hover #heart{opacity: 1;}
+.cate-card18c:hover .cate-btn{opacity: 1;}
+.cate-card18c:hover{opacity:0.7;}
+.cate-card19c:hover #heart{opacity: 1;}
+.cate-card19c:hover .cate-btn{opacity: 1;}
+.cate-card19c:hover{opacity:0.7;}
+.cate-card20c:hover #heart{opacity: 1;}
+.cate-card20c:hover .cate-btn{opacity: 1;}
+.cate-card20c:hover{opacity:0.7;}
+.cate-card21c:hover #heart{opacity: 1;}
+.cate-card21c:hover .cate-btn{opacity: 1;}
+.cate-card21c:hover{opacity:0.7;}
+.cate-card22c:hover #heart{opacity: 1;}
+.cate-card22c:hover .cate-btn{opacity: 1;}
+.cate-card22c:hover{opacity:0.7;}
+.cate-card23c:hover #heart{opacity: 1;}
+.cate-card23c:hover .cate-btn{opacity: 1;}
+.cate-card23c:hover{opacity:0.7;}
+.cate-card24c:hover #heart{opacity: 1;}
+.cate-card24c:hover .cate-btn{opacity: 1;}
+.cate-card24c:hover{opacity:0.7;}
+.cate-card25c{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2805.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card26c{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2805.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card27c{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/formal.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card28c{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2852.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card29c{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2853.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card30c{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2854.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card31c{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2855.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card32c{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2852.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card33c{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2853.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card34c{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2855.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card35c{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2854.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card36c{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/Frame\ 2853.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card25c:hover #heart{opacity: 1;}
+.cate-card25c:hover .cate-btn{opacity: 1;}
+.cate-card25c:hover{opacity:0.7;}
+.cate-card26c:hover #heart{opacity: 1;}
+.cate-card26c:hover .cate-btn{opacity: 1;}
+.cate-card26c:hover{opacity:0.7;}
+.cate-card27c:hover #heart{opacity: 1;}
+.cate-card27c:hover .cate-btn{opacity: 1;}
+.cate-card27c:hover{opacity:0.7;}
+.cate-card28c:hover #heart{opacity: 1;}
+.cate-card28c:hover .cate-btn{opacity: 1;}
+.cate-card28c:hover{opacity:0.7;}
+.cate-card29c:hover #heart{opacity: 1;}
+.cate-card29c:hover .cate-btn{opacity: 1;}
+.cate-card29c:hover{opacity:0.7;}
+.cate-card30c:hover #heart{opacity: 1;}
+.cate-card30c:hover .cate-btn{opacity: 1;}
+.cate-card30c:hover{opacity:0.7;}
+.cate-card31c:hover #heart{opacity: 1;}
+.cate-card31c:hover .cate-btn{opacity: 1;}
+.cate-card31c:hover{opacity:0.7;}
+.cate-card32c:hover #heart{opacity: 1;}
+.cate-card32c:hover .cate-btn{opacity: 1;}
+.cate-card32c:hover{opacity:0.7;}
+.cate-card33c:hover #heart{opacity: 1;}
+.cate-card33c:hover .cate-btn{opacity: 1;}
+.cate-card33c:hover{opacity:0.7;}
+.cate-card34c:hover #heart{opacity: 1;}
+.cate-card34c:hover .cate-btn{opacity: 1;}
+.cate-card34c:hover{opacity:0.7;}
+.cate-card35c:hover #heart{opacity: 1;}
+.cate-card35c:hover .cate-btn{opacity: 1;}
+.cate-card35c:hover{opacity:0.7;}
+.cate-card36c:hover #heart{opacity: 1;}
+.cate-card36c:hover .cate-btn{opacity: 1;}
+.cate-card36c:hover{opacity:0.7;}
+.cate-card37c{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/girls.webp);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card38c{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/girls1.webp);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card39c{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/boys.jfif);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card40c{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/boys1.jfif);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card41c{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/boys2.jfif);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card42c{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/girls2.webp);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card43c{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/girls3.jfif);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card44c{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/boys3.jfif);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card45c{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/girls.webp);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card46c{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/boys1.jfif);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card47c{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/girls2.webp);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card48c{display: flex;flex-direction: column;height: 250px;width:200px;background-image: url(../image/boys.jfif);background-position: center;background-repeat: no-repeat;background-size: cover;border: none;border-radius: 10px;}
+.cate-card37c:hover #heart{opacity: 1;}
+.cate-card37c:hover .cate-btn{opacity: 1;}
+.cate-card37c:hover{opacity:0.7;}
+.cate-card38c:hover #heart{opacity: 1;}
+.cate-card38c:hover .cate-btn{opacity: 1;}
+.cate-card38c:hover{opacity:0.7;}
+.cate-card39c:hover #heart{opacity: 1;}
+.cate-card39c:hover .cate-btn{opacity: 1;}
+.cate-card39c:hover{opacity:0.7;}
+.cate-card40c:hover #heart{opacity: 1;}
+.cate-card40c:hover .cate-btn{opacity: 1;}
+.cate-card40c:hover{opacity:0.7;}
+.cate-card41c:hover #heart{opacity: 1;}
+.cate-card41c:hover .cate-btn{opacity: 1;}
+.cate-card41c:hover{opacity:0.7;}
+.cate-card42c:hover #heart{opacity: 1;}
+.cate-card42c:hover .cate-btn{opacity: 1;}
+.cate-card42c:hover{opacity:0.7;}
+.cate-card43c:hover #heart{opacity: 1;}
+.cate-card43c:hover .cate-btn{opacity: 1;}
+.cate-card43c:hover{opacity:0.7;}
+.cate-card44c:hover #heart{opacity: 1;}
+.cate-card44c:hover .cate-btn{opacity: 1;}
+.cate-card44c:hover{opacity:0.7;}
+.cate-card45c:hover #heart{opacity: 1;}
+.cate-card45c:hover .cate-btn{opacity: 1;}
+.cate-card45c:hover{opacity:0.7;}
+.cate-card46c:hover #heart{opacity: 1;}
+.cate-card46c:hover .cate-btn{opacity: 1;}
+.cate-card46c:hover{opacity:0.7;}
+.cate-card47c:hover #heart{opacity: 1;}
+.cate-card47c:hover .cate-btn{opacity: 1;}
+.cate-card47c:hover{opacity:0.7;}
+.cate-card48c:hover #heart{opacity: 1;}
+.cate-card48c:hover .cate-btn{opacity: 1;}
+.cate-card48c:hover{opacity:0.7;}
